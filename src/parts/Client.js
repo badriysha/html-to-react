@@ -1,11 +1,11 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
-import Clients01 from "assets/images/clients-01.svg";
-import Clients02 from "assets/images/clients-02.svg";
-import Clients03 from "assets/images/clients-03.svg";
-import Clients04 from "assets/images/clients-04.svg";
-import Clients05 from "assets/images/clients-05.svg";
+import Clients01 from 'assets/images/clients-01.svg';
+import Clients02 from 'assets/images/clients-02.svg';
+import Clients03 from 'assets/images/clients-03.svg';
+import Clients04 from 'assets/images/clients-04.svg';
+import Clients05 from 'assets/images/clients-05.svg';
 
 export default function Client() {
   return (

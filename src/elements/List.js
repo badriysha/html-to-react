@@ -1,19 +1,17 @@
-import React from "react";
-import propTypes from "prop-types";
+import React from 'react';
+import propTypes from 'prop-types';
 
 export default function List(props) {
-  const className = ["list-reset"];
+  const className = ['list-reset'];
   className.push(props.className);
-  if (props.isSmall) className.push("text-sm");
+  if (props.isSmall) className.push('text-sm');
   return (
-    <ul className={className.join(" ")}>
-      {props.data.map((list, index) => {
-        return (
-          <li key={index} className={list.isChecked ? "is-checked" : ""}>
-            {list.content}
-          </li>
-        );
-      })}
+    <ul className={className.join(' ')}>
+      {props.data.map((list, index) => (
+        <li key={index} className={list.isChecked ? 'is-checked' : ''}>
+          {list.content}
+        </li>
+      ))}
     </ul>
   );
 }

@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Button from "elements/Button";
-import Logo from "assets/images/logo.svg";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Button from 'elements/Button';
+import Logo from 'assets/images/logo.svg';
 
 export default function Header(props) {
   return (
@@ -23,7 +23,7 @@ export default function Header(props) {
           >
             <span className="screen-reader">Menu</span>
             <span className="hamburger">
-              <span className="hamburger-inner"></span>
+              <span className="hamburger-inner" />
             </span>
           </button>
           <nav id="header-nav" className="header-nav">

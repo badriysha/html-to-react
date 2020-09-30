@@ -1,6 +1,6 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
-import propTypes from "prop-types";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+import propTypes from 'prop-types';
 
 export default function Feature(props) {
   return (
